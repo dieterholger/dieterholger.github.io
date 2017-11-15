@@ -1,0 +1,291 @@
+/* Here you can include custom fonts (as long as you have the link to them). */
+
+@font-face {
+  font-family: Caviar-Dreams;
+  src: url(Caviar-Dreams/CaviarDreams.ttf);
+}
+
+@font-face {
+  font-family: Caviar-Dreams-Bold;
+  src: url(Caviar-Dreams/Caviar_Dreams_Bold.ttf);
+}
+
+@font-face {
+  font-family: Caviar-Dreams-Italic;
+  src: url(Caviar-Dreams/CaviarDreams_Italic.ttf);
+}
+
+/* Customize the website's default margins, padding, font, and font color here. Background color can't be changed here — go to .main instead. */
+
+html, body, * {
+  margin: 0px;
+  padding: 0px;
+  font-family: Caviar-Dreams, Garamond, Georgia;
+  color: #001F3D;
+}
+
+/* Main section contains all the content on the site. Background color of page can be changed here. */
+
+.main {
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background-color: #EFE0B1;
+}
+
+/* Settings for flexitems. All paragraph and headline elements are contained and vertically laid out as flex-items */
+
+.flexitem {
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Main page headline */
+
+.main h1 {
+  margin: 15vh 0 0 0;
+  font-size: calc(2.5rem + 0.25vw);
+  padding: 2vh;
+}
+
+/* Used calc to use viewport and rems to completely avoid media queries for fonts. */
+
+.main p {
+  margin: 2vh 25vw 2vh 25vw;
+  font-size: calc(1.1rem + 0.25vw);
+}
+
+/* Settings for work example pages. */
+
+/* Settings for article and work example headlines with links. */
+
+h1 a {
+  font-size: calc(1.6rem + 0.25vw);
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: black;
+  font-family: Caviar-Dreams-Bold;
+}
+
+/* Font settings for quotes and notes on work examples. */
+
+.pullquote p {
+  font-family: Caviar-Dreams-Italic;
+  font-size: calc(1.2rem + 0.25vw);
+  margin: 0 9vw 1vh 9vw;
+}
+
+.workexamplecomment p {
+  font-size: calc(1.2rem + 0.25vw);
+  margin: 0 9vw 1vh 9vw;
+}
+
+/* Size and spacing settings for the quotemark and comment icons. */
+
+.pullquote .quoteicon {
+  font-size: calc(1.3rem + 0.25vw);
+  padding: .1vw;
+}
+
+/* Settings for images and video iframes. Use max-width to keep images and iframe responsive. */
+
+img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .5vh;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+/* Code for top navigation/hamburger icon leading to the pages. Reference: https://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
+
+/* For nav to work, the body is wrapped in this class. */
+
+.site-wrap {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Customize .navigation background color to change pull-out menu backgroung color. */
+
+.navigation {
+    list-style: none;
+    background-color: #001F3D;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    overflow-x: scroll;
+}
+
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.nav-trigger:checked + label {
+    left: 42vw;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+    left: 41vw;
+}
+
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+}
+
+label[for="nav-trigger"] {
+    position: fixed;
+    top: 1vh;
+    left: 1vw;
+    z-index: 2;
+    cursor: pointer;
+    background-size: contain;
+    font-size: 1.2vw;
+}
+
+/* Customize the navicon here. Label is the fa-bars icon: http://fontawesome.io/icon/bars/. */
+
+/* You can change the navicon's size and color here. */
+
+#navicon {
+  font-size: 11vw;
+  color: #001F3D;
+}
+
+/* Change the icon's color on hover. */
+
+#navicon:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+/* Settings for icons in navigation menu. */
+
+.nav-item .navicons {
+  color: #EFE0B1;
+}
+
+/* Settings for the font and links in the navigation. */
+
+/* Change font size and padding of navigation items here. */
+
+.navigation li {
+  color: #EFE0B1;
+  padding: 3vh;
+  font-size: 7.5vw;
+  font-weight: bolder;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #EFE0B1;
+}
+
+.navigation li a:hover {
+  color: black;
+  font-family: Caviar-Dreams-Bold;
+}
+
+/* Cutomize the Mailchimp newsletter sign-up form here. Reference: https://uhurunetwork.com/customizing-mailchimp-form-design/. */
+
+#mailchimp {
+	padding: 1vh 1vw;
+}
+
+#mailchimp input {
+	border: solid;
+  border-color: #001F3D;
+  color: #001F3D;
+  font-family: Garamond, Georgia, Helvetica;
+  font-size: calc(.7rem + 0.25vw);
+  font-style: italic;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  padding: .7vh;
+  width: 25vw;
+  min-width: 160px;
+  height: auto;
+	border-radius: 1vw;
+	-moz-border-radius: 2vw;
+	-webkit-border-radius: 2vw;
+}
+
+/* Background for email input form. */
+
+#mailchimp input.email { background: #EFE0B1 }
+
+/* Settings for submit button. */
+
+#mailchimp input[type="submit"] {
+  background: #001F3D;
+  color: #EFE0B1;
+	cursor: pointer;
+	font-size: calc(.8rem + 0.25vw);
+	width: 25vw;
+  min-width: 160px;
+  height: auto;
+}
+
+#mailchimp input[type="submit"]:hover {
+  background: #EFE0B1;
+  color: #001F3D;
+}
+
+/* Footer with responsive social icons made via Font Awesome. */
+
+footer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 7vh;
+}
+
+footer ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* Padding and size options for the social icons. */
+
+.socialicons {
+  font-size: 11vw;
+  padding: 1.2vw;
+}
+
+/* Change the color of icon on hover. */
+
+.socialicons:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+/* Credit to me! Please don't remove. */
+
+footer .credit {
+    position: fixed;
+    top: 98%;
+    right: .4%;
+    text-decoration: none;
+    font-size: calc(2px + 1vw);
+}
