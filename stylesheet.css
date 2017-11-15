@@ -141,7 +141,7 @@ iframe {
 }
 
 .nav-trigger:checked + label {
-    left: 42vw;
+    left: 44vw;
 }
 
 .nav-trigger:checked ~ .site-wrap {
