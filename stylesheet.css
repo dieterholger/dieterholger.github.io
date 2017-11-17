@@ -279,13 +279,3 @@ footer ul {
   color: black;
   font-weight: bolder;
 }
-
-/* Credit to me! Please don't remove. */
-
-footer .credit {
-    position: fixed;
-    top: 98%;
-    right: .4%;
-    text-decoration: none;
-    font-size: calc(2px + 1vw);
-}
