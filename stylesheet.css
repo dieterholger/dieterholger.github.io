@@ -159,7 +159,7 @@ label[for="nav-trigger"] {
     z-index: 2;
     cursor: pointer;
     background-size: contain;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
 }
 
 /* Customize the navicon here. Label is the fa-bars icon: http://fontawesome.io/icon/bars/. */
@@ -191,7 +191,7 @@ label[for="nav-trigger"] {
 .navigation li {
   color: #EFE0B1;
   padding: 3vh;
-  font-size: 7.4vw;
+  font-size: 7.2vw;
   font-weight: bolder;
 }
 
