@@ -1031,7 +1031,6 @@
         },
         width: 1100,
         height: 700,
-        displaymodebar: False
       })
     }
 
@@ -1787,13 +1786,13 @@
       for (var i = -1; annualStateJetFuelConsumptionIDs.length > i; i++) {
         var url = 'http://api.eia.gov/series/?api_key=3d9541721290f76e46a2250bcbea2ff3&series_id=' + annualStateJetFuelConsumptionIDs[i] + '&start=20000101&out=json'
 
-        var xhttp = new XMLHttpRequest();
+        var https = new XMLHttpRequest();
 
-        xhttp.open('GET', url);
+        https.open('GET', url);
 
-        xhttp.send();
+        https.send();
 
-        xhttp.addEventListener('load', processResponse);
+        https.addEventListener('load', processResponse);
 
         var processResponse = function() {
 
