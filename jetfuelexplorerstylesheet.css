@@ -17,6 +17,7 @@ div.graph {
 h1 {
   font-size: calc(1.5rem + 0.25vw);
   color: #013243;
+  position: absolute;
   text-align: center;
   margin-top: 2vh;
   margin-right: 10vw;
