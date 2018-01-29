@@ -25,6 +25,17 @@ letter-spacing: .1vw;
 padding: .5vw;
 }
 
+/* Main title settings. */
+
+h1 {
+color: #013243;
+letter-spacing: .1vw;
+text-align: center;
+margin-right: 10vw;
+margin-left: 10vw;
+padding: .5vw;
+}
+
 /* Graph title settings. */
 
 h2 {
