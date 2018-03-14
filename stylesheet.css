@@ -127,12 +127,12 @@ h1 a:hover {
 .pullquote p {
   font-family: Caviar-Dreams-Italic;
   font-size: calc(1.2rem + 0.25vw);
-  margin: 0 9vw 1vh 9vw;
+  margin: 0 11vw 1vh 11vw;
 }
 
 .workexamplecomment p {
   font-size: calc(1.2rem + 0.25vw);
-  margin: 0 9vw 1vh 9vw;
+  margin: 0 11vw 1vh 11vw;
 }
 
 /* Size and spacing settings for the quotemark and comment icons. */
@@ -145,7 +145,7 @@ h1 a:hover {
 /* Settings for images and video iframes. Use max-width to keep images and iframe responsive. */
 
 img {
-  max-width: 80%;
+  max-width: 70%;
   height: auto;
   display: block;
   margin-left: auto;
