@@ -1,10 +1,10 @@
-﻿Company,Amount,Reason,Year,Link
-William Hill,"6,300,000",Social Responsibility,2018,http://www.gamblingcommission.gov.uk/news-action-and-statistics/news/2018/William-Hill-to-pay-6.2m-penalty-package.aspx
-ElectraWorks,"350,000",Advertising,2018,http://www.gamblingcommission.gov.uk/news-action-and-statistics/news/2018/Gambling-business-fined-for-advertising-failures.aspx
-Broadway Gaming,"100,000",Advertising,2017,http://www.gamblingcommission.gov.uk/news-action-and-statistics/news/2017/Broadway-Gaming.aspx
-Lottoland,"100,000",Advertising,2017,http://www.gamblingcommission.gov.uk/news-action-and-statistics/news/2017/Lottoland-to-pay-150000-for-advertising-failings.aspx
-BGO Entertainment,"300,000",Advertising,2017,http://www.gamblingcommission.gov.uk/news-action-and-statistics/news/2017/Gambling-business-fined-for-misleading-advertising.aspx
-Gala Interactive,"2,300,000",Social Responsibility,2017,http://www.gamblingcommission.gov.uk/news-action-and-statistics/news/2017/Gala-Interactive-to-pay-2.3m-penalty-package.aspx
-Stan James Online,"80,000",Social Responsibility/Money Laundering,2017,http://www.gamblingcommission.gov.uk/news-action-and-statistics/news/2017/Stan-James-Online-to-pay-80000-penalty-package.aspx
-888,"7,800,000",Social Responsibility,2017,http://www.gamblingcommission.gov.uk/news-action-and-statistics/news/2017/Gambling-firm-888-to-pay-over-7.8million-for-failing-vulnerable-customers.aspx
-Betfred,"800,000",Social Responsibility,2016,http://www.gamblingcommission.gov.uk/news-action-and-statistics/news/2016/Betfred-to-pay-over-800000-following-licence-review.aspx
+﻿Company,Social Responsibility,Advertising,Money Laundering,Total,Year
+888,7800000,0,0,7800000,2017
+William Hill,6300000,0,0,6300000,2018
+Gala Interactive,2300000,0,0,2300000,2017
+Betfred,800000,0,0,800000,2016
+ElectraWorks,0,350000,0,350000,2018
+BGO Entertainment,0,300000,0,300000,2017
+Broadway Gaming,0,100000,0,100000,2017
+Lottoland,0,100000,0,100000,2017
+Stan James Online,40000,0,40000,80000,2017
